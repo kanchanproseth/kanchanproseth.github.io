@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            float: left;
+            text-align: center;
+            font-family: arial;
+        }
+
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+
+        .container {
+            padding-left: 350px;
+            font-family: arial;
+        }
+
+        .gradient-border-pseudo {
+            position: relative;
+            padding: 10px 20px;
+            background: #fff;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .gradient-border-pseudo::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            margin: -5px;
+            border-radius: inherit;
+            background-image: linear-gradient(45deg, purple, orange);
+        }
+    </style>
+</head>
+
+<body>
+    <span>
+        <div align="left" class="card">
+            <img src="./assets/chanprosethKan.png" alt="Proseth" style="width:100%">
+            <h1>Chanproseth Kan</h1>
+            <p class="title">Experienced iOS Developer</p>
+            <p>Maharishi University</p>
+            <div style="margin: 30px 0;">
+                <a href="https://www.linkedin.com/in/kan-chanproseth"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/botra.seth1/"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="container">
+            <H1 style="text-align: center; font-family: arial;">Web Profile</H1>
+            <h2 style="text-align: center; font-family: arial;"> Welcome! everyone to web profile for homepage
+                assignment in my WAP course</h2>
+            <div class="gradient-border-pseudo">
+                <h3 style="font-family: arial;margin: 50px 10;">List of Lab</h3>
+                <ul>
+                    <li><a href="#">WAP1 - Homepage</a></li>
+                    <li><a href="#">WAP2 - AboutMe</a></li>
+                    <li><a href="#">WAP3 - Recipe</a></li>
+                    <li><a href="#">WAP4 - MoviesReview</a></li>
+                    <!-- <li><a href="#">WAP5 - MoviesReview</a></li> -->
+                    <!-- <li><a href="#">WAP6 - MoviesReview</a></li> -->
+                    <!-- <li><a href="#">WAP7 - MoviesReview</a></li> -->
+                    <!-- <li><a href="#">WAP8 - MoviesReview</a></li> -->
+                    <!-- <li><a href="#">WAP9 - MoviesReview</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </span>
+
+</body>
+
+</html>
